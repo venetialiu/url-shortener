@@ -2,7 +2,7 @@
 
 This is a fullstack URL shortening project built with React.js and Node.js.
 
-## 📄 Description
+## Description
 
 URL Shortener is a web application that allows users to create short and easy-to-share URLs from long and complex ones. It uses:
 - **React.js** for the frontend
@@ -36,5 +36,13 @@ This project involved building both frontend and backend from scratch. Tailwind 
 - **React** – frontend JavaScript library
 - **Express** – backend web framework for Node.js
 - **MongoDB** – NoSQL document database
+
+---
+
+---
+
+## Link
+
+- **Live Site:** _[https://url-shortener-8mhd.vercel.app/]_  
 
 ---
