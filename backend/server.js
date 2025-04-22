@@ -7,7 +7,7 @@ const app = express();
 connectDB();
 
 app.use(cors({
-    origin: 'https://your-frontend.vercel.app',
+    origin: 'https://url-shortener-8mhd.vercel.app',
     methods: ['GET', 'POST'],
 }));
 app.use(express.json());
