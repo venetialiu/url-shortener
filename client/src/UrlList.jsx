@@ -20,7 +20,12 @@ const UrlList = ({ urls }) => {
                 </a>
               </td>
               <td className="p-3">
-                <a href={`http://localhost:5001/${url.short}`} target="_blank" rel="noreferrer" className="text-blue-600 underline">
+                <a
+                  href={`https://url-shortener-h2mw.onrender.com/${url.short}`}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-blue-600 underline"
+                >
                   {url.short}
                 </a>
               </td>
