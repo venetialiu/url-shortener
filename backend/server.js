@@ -6,7 +6,10 @@ const apiRoutes = require('./routes/api');
 const app = express();
 connectDB();
 
-app.use(cors());
+app.use(cors({
+    origin: 'https://your-frontend.vercel.app',
+    methods: ['GET', 'POST'],
+}));
 app.use(express.json());
 app.use('/api', apiRoutes);
 app.get('/:shortUrl', require('./routes/redirect'));
