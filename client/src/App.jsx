@@ -7,12 +7,12 @@ const App = () => {
   const [urls, setUrls] = useState([]);
 
   const fetchUrls = async () => {
-    const res = await axios.get('https://url-shortener-h2mw.onrender.com');
+    const res = await axios.get('https://url-shortener-h2mw.onrender.com/api/urls');
     setUrls(res.data);
   };
 
   const addUrl = async (fullUrl) => {
-    await axios.post('https://url-shortener-h2mw.onrender.com', { fullUrl });
+    await axios.post('https://url-shortener-h2mw.onrender.com/api/shorten', { fullUrl });
     fetchUrls();
   };
 
